@@ -90,7 +90,7 @@ export default class ClickerGenerator extends HTMLElement {
         )} 💰/s</p>
         <div class="buttonn">
         
-        <button  disabled>
+        <button class='clicker-generator-add-btn' disabled>
          Improve 💲${Helper.formatAmount(this.getCurrentCost())}
   <div class="star-1">
     <svg
