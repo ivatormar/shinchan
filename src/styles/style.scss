@@ -1,0 +1,28 @@
+// General styles for index.html
+
+@use 'base';
+
+
+body {
+  height: 100vh; /* 100% del viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url('/media/Mesa-de-trabajo-1-100.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+/* Consulta de medios para ajustar el tamaño del cuerpo en pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px; /* Puedes ajustar el tamaño de la fuente u otros estilos según sea necesario */
+  }
+}
